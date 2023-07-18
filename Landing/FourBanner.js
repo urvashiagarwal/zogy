@@ -1,4 +1,11 @@
+import { HeroAddress } from "../HeroComponent/heroAddress"
+
 export const FourBanner = () => {
+    const style = {
+        display: "list-item",
+        bgclr: "white",
+        txtclr: "black"
+    }
     return (
         <>
             <div className="footercards">
@@ -37,6 +44,7 @@ export const FourBanner = () => {
                         <button>Read More</button>
                     </div>
                 </div>
+                <HeroAddress {...style} />
             </div>
         </>
     )
