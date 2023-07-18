@@ -3,6 +3,7 @@ import { Blog } from '@/Landing/Blog'
 import LandingBanners from '@/Landing/LandBanner'
 import { LandCards } from '@/Landing/LandCards'
 import { Numbupdate } from '@/Landing/NumbUpdate'
+import { SubmitUpdt } from '@/Landing/SubmitUpdate'
 import React from 'react'
 
 const Landing = () => {
@@ -30,6 +31,7 @@ const Landing = () => {
             <Numbupdate />
             <LandCards />
             <Blog />
+            <SubmitUpdt/>
 
 
         </>
