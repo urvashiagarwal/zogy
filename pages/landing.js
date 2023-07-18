@@ -24,6 +24,7 @@ const Landing = () => {
         <>
             <LandingBanners />
             <HeroMenu {...data} />
+            
 
 
         </>
