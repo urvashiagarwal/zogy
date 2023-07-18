@@ -1,4 +1,5 @@
 import { HeroMenu } from '@/Home/HeroMenu'
+import { Blog } from '@/Landing/Blog'
 import LandingBanners from '@/Landing/LandBanner'
 import { LandCards } from '@/Landing/LandCards'
 import { Numbupdate } from '@/Landing/NumbUpdate'
@@ -27,7 +28,8 @@ const Landing = () => {
             <LandingBanners />
             <HeroMenu {...data} />
             <Numbupdate />
-            <LandCards/>
+            <LandCards />
+            <Blog />
 
 
         </>

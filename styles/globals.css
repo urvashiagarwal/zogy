@@ -755,3 +755,58 @@
   font-weight: bold;
   margin-top: 20px;
 }
+
+/* ------------------Blog----------------- */
+
+.blog {
+  padding: 100px;
+  text-align: center;
+}
+
+.blog h1 {
+  color: #000000;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.blog h5 {
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.blogcard {
+  margin-top: 60px;
+  margin-left: 50px;
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  display: inline-flex;
+
+
+}
+
+.blogcard h6 {
+  text-align: left;
+  color: #4756c9;
+  font-weight: 400;
+}
+
+#title {
+  font-weight: bold;
+}
+
+#b-text {
+  font-weight: 500px;
+}
+
+.blogcard button {
+  width: 161px;
+  height: 59px;
+  border-radius: 40px;
+  background-color: #99e54d;
+  border: 0px;
+  color: #000000;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+}
