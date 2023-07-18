@@ -854,3 +854,16 @@
   text-transform: uppercase;
   margin-left: 10px
 }
+
+.l-banner3 {
+  padding: 90px;
+  gap: 30px;
+}
+
+.g-box {
+  background-color: #99e54d;
+  height: 616px;
+  width: 585px;
+  border-radius: 40px;
+  padding: 20px;
+}

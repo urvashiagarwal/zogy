@@ -1,5 +1,6 @@
 import { HeroMenu } from '@/Home/HeroMenu'
 import { Blog } from '@/Landing/Blog'
+import { FourBanner } from '@/Landing/FourBanner'
 import LandingBanners from '@/Landing/LandBanner'
 import { LandCards } from '@/Landing/LandCards'
 import { Numbupdate } from '@/Landing/NumbUpdate'
@@ -32,6 +33,7 @@ const Landing = () => {
             <LandCards />
             <Blog />
             <SubmitUpdt/>
+            <FourBanner/>
 
 
         </>
