@@ -1,6 +1,6 @@
 .navbar-collapse {
   justify-content: center;
-  
+
 
 }
 
@@ -10,6 +10,7 @@
   padding: 15px;
 
 }
+
 #link {
   text-decoration: none;
   color: #111111;
@@ -33,6 +34,7 @@
   float: left;
 
 }
+
 .lunch {
   padding: 100px;
 }
@@ -108,10 +110,12 @@
   background-size: cover;
 
 }
+
 #threeimg {
   background-color: #1a1a1a;
 
 }
+
 .innerthree {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -120,6 +124,7 @@
   margin-left: 70px;
   margin-right: 70px;
 }
+
 #threeimg h4 {
   position: relative;
   top: 50%;
@@ -157,12 +162,14 @@
 #freepik {
   color: #d99d0d;
 }
+
 #photo {
   width: 540px;
   height: 521px;
   border-radius: 50px;
   /* margin-right: 100px; */
 }
+
 #threeimg2 {
   background-color: #1a1a1a;
 
@@ -184,6 +191,7 @@
   width: 366.66px;
   border-radius: 50px;
 }
+
 .banner3 {
   background-color: #1a1a1a;
   width: 100%;
@@ -218,6 +226,7 @@
   height: 521px;
   border-radius: 50px;
 }
+
 .menu {
   background-color: #1a1a1a;
   height: auto;
@@ -288,11 +297,13 @@
   color: black;
 
 }
-.menu h4{
-  color:#ffffff;
+
+.menu h4 {
+  color: #ffffff;
   text-align: center;
   margin-top: 100px;
 }
+
 .banner4 {
   background-color: #1a1a1a;
   width: 100%;
@@ -331,6 +342,7 @@
   border-radius: 50px;
   /* margin-right: 100px; */
 }
+
 #banner10 {
   background-image: url("https://assets.nicepagecdn.com/11a8ddce/4267640/images/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view.jpg");
   background-size: 100%;
@@ -398,6 +410,7 @@
   background-color: #99e54d;
   font-size: 17px;
 }
+
 /* -----------hero address----------- */
 .address {
   background-color: #1a1a1a;
@@ -492,6 +505,7 @@
   font-weight: bold;
 
 }
+
 .footer1 {
   height: 110px;
   background-color: #333333;
@@ -591,7 +605,7 @@
   height: 587px;
   border-radius: 30px;
   color: black;
-
+  background-color: #111111;
   background-position: 45%;
   background-size: cover;
 
