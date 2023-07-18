@@ -649,3 +649,109 @@
 
 
 }
+
+.cardimg {
+  padding: 90px;
+  gap: 30px;
+
+}
+
+.c-img {
+  height: 587px;
+  width: 556px;
+  border-radius: 40px;
+  background-image: url("https://assets.nicepagecdn.com/11a8ddce/4267640/images/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view.jpg");
+  background-position: 50% 60%;
+  background-size: cover;
+
+}
+
+.cardtext {
+  background-color: #99e54d;
+  border-radius: 40px;
+  height: 587px;
+  width: 556px;
+  text-align: center;
+  padding: 80px;
+}
+
+.cardtext h1 {
+  font-weight: bold;
+  font-size: 50px;
+  color: #111111;
+  margin-top: 20px;
+}
+
+.cardtext h5 {
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #111111;
+
+}
+
+.cardtext h4 {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #111111;
+  font-weight: normal;
+
+}
+
+.cardtext button {
+  height: 55px;
+  width: 181px;
+  border-radius: 40px;
+  border: 0;
+  background-color: #111111;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.cardimg2 {
+  gap: 30px;
+}
+
+.cardtext2 {
+  background-color: #000000;
+
+  border-radius: 40px;
+  height: 587px;
+  width: 556px;
+  text-align: center;
+  padding: 80px;
+}
+
+.cardtext2 h5 {
+  margin-top: 60px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff
+}
+
+.cardtext2 h1 {
+  font-weight: bold;
+  font-size: 50px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.cardtext2 h4 {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: normal;
+
+}
+
+.cardtext2 button {
+  height: 55px;
+  width: 181px;
+  border-radius: 40px;
+  border: 0;
+  background-color: #99e54d;
+  color: #111111;
+  font-weight: bold;
+  margin-top: 20px;
+}
