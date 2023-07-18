@@ -1,5 +1,6 @@
 .navbar-collapse {
   justify-content: center;
+  position: sticky;
 
 
 }
