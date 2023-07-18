@@ -24,6 +24,7 @@ const LandingBanners = () => {
                         <button>Read More</button></div>
                 </div>
                 <div className=" l-banner2">
+                    <img src="https://cdn.pixabay.com/photo/2018/02/25/20/04/lambs-lettuce-3181610_640.jpg" alt="" />
                 </div>
             </div>
 
