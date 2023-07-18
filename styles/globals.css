@@ -600,13 +600,11 @@
 
 .l-banner2 {
 
-  background-image: url("hhttps: //assets.nicepagecdn.com/11a8ddce/4267640/images/pexels-photo-3850972.jpeg");
+  background-image: url("https: //cdn.pixabay.com/photo/2022/05/20/08/55/pasta-7209002_640.jpg");
   width: 556px;
   height: 587px;
   border-radius: 30px;
-
-
-  background-position: 45% 55%;
+  background-position: 50%;
   background-size: cover;
 
 

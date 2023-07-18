@@ -23,7 +23,7 @@ const LandingBanners = () => {
                         <h1>Where every ingredient<br /> tells a story</h1>
                         <button>Read More</button></div>
                 </div>
-                <div className=" l-banner2">jdhjd
+                <div className=" l-banner2">
                 </div>
             </div>
 
