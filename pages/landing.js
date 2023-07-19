@@ -1,3 +1,4 @@
+import { HeroAddress } from '@/Home/HeroAddress'
 import { HeroMenu } from '@/Home/HeroMenu'
 import { Blog } from '@/Landing/Blog'
 import { FourBanner } from '@/Landing/FourBanner'
@@ -32,8 +33,9 @@ const Landing = () => {
             <Numbupdate />
             <LandCards />
             <Blog />
-            <SubmitUpdt/>
-            <FourBanner/>
+            <SubmitUpdt />
+            <FourBanner />
+            <HeroAddress />
 
 
         </>
