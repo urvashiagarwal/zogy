@@ -27,12 +27,12 @@ export const FourBanner = () => {
 
 
                 <div className="g-box">
-                    {/* <div>
+                    <div>
                         <div id="logo" style={{ marginLeft: "315px", marginTop: "calc(-42px)" }} >
                             <h1>40%</h1>
                             <h4>Business lunch</h4>
                         </div>
-                    </div> */}
+                    </div>
 
 
 

@@ -35,7 +35,7 @@ const Landing = () => {
             <Blog />
             <SubmitUpdt />
             <FourBanner />
-            <HeroAddress />
+
 
 
         </>
