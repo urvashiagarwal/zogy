@@ -26,7 +26,7 @@ export const FourBanner = () => {
             <div className=" l-banner3">
 
 
-                <div className="g-box">
+                {/* <div className="g-box">
                     <div>
                         <div id="logo" style={{ marginLeft: "315px", marginTop: "calc(-42px)" }} >
                             <h1>40%</h1>
@@ -43,7 +43,7 @@ export const FourBanner = () => {
                         <h1>Our Contact</h1>
                         <button>Read More</button>
                     </div>
-                </div>
+                </div> */}
                 <HeroAddress />
             </div>
         </>
