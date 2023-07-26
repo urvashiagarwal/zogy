@@ -20,7 +20,7 @@ export const FourBanner = () => {
                 </div>
 
             </div>
-            <div className=" l-banner3">
+            <div className="d-flex justify-content-center l-banner3">
 
 
                 <div className="g-box">

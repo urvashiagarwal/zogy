@@ -858,7 +858,8 @@
 .l-banner3 {
   padding: 90px;
   gap: 30px;
-  padding-left: 20px;
+  padding-left: 120px;
+  display: flex;
 }
 
 .g-box {
