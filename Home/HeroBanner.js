@@ -5,11 +5,11 @@ export const HeroBanner = () => {
                 <div className="container-fluid banner">
                     <div className="row">
 
-                        <div className="col col-1">
+                        <div className="col col-lg-1">
 
                         </div>
 
-                        <div className=" col col-5 lunch ">
+                        <div className=" col col-lg-5 col-md-6 col-sm-10 lunch ">
                             <div id="circle">
                                 <div>
                                     <h2>40%</h2>
@@ -22,7 +22,7 @@ export const HeroBanner = () => {
                             <button>Read More</button>
                         </div>
 
-                        <div className="col col-6">
+                        <div className="col col-lg-6 col-md-6 col-sm-2">
 
                         </div>
 
