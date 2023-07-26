@@ -1,4 +1,4 @@
-import { HeroAddress } from "../HeroComponent/heroAddress"
+import { HeroAddress } from "@/Home/HeroAddress"
 
 export const FourBanner = () => {
     const style = {
