@@ -44,7 +44,9 @@ export const FourBanner = () => {
                         <button>Read More</button>
                     </div>
                 </div>
-                <HeroAddress {...style} />
+                <div className="h-box">
+                    <HeroAddress {...style} />
+                </div>
             </div>
         </>
     )
