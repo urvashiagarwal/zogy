@@ -1,8 +1,8 @@
-export const HeroAddress = (props) => {
+export const HeroAddress = () => {
     return (
         <>
-            <div class="address" style={{ backgroundColor: `${props.bgclr}` }}>
-                <div class="container inadd" style={{ display: `${props.display}`, }}>
+            <div class="address" >
+                <div class="container inadd">
                     <div class="div1">
 
                         <div class="msg">
@@ -11,7 +11,7 @@ export const HeroAddress = (props) => {
                                 alt="" id="icon1" />
                         </div>
 
-                        <div style={{ color: `${props.txtclr}` }}><h5>CHART TO US</h5>
+                        <div ><h5>CHART TO US</h5>
                             <h5>Our friendly team is here to help.</h5>
                             <a href="https://nicepage.best/">hi@ourcompany.com</a></div>
 

@@ -1,11 +1,8 @@
 import { HeroAddress } from "@/Home/HeroAddress"
 
 export const FourBanner = () => {
-    const style = {
-        display: "list-item",
-        bgclr: "white",
-        txtclr: "black"
-    }
+
+
     return (
         <>
             <div className="footercards">
@@ -45,7 +42,7 @@ export const FourBanner = () => {
                     </div>
                 </div>
                 <div className="h-box">
-                    <HeroAddress {...style} />
+
                 </div>
             </div>
         </>
