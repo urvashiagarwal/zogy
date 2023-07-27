@@ -1,4 +1,5 @@
 import { HeroAddress } from '@/Home/HeroAddress'
+import { HeroFooter } from '@/Home/HeroFooter'
 import { HeroMenu } from '@/Home/HeroMenu'
 import { Blog } from '@/Landing/Blog'
 import { FourBanner } from '@/Landing/FourBanner'
@@ -35,7 +36,7 @@ const Landing = () => {
             <Blog />
             <SubmitUpdt />
             <FourBanner />
-
+            <HeroFooter />
 
 
         </>
