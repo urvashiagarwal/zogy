@@ -888,9 +888,11 @@
   padding: 13px;
   align-items: center;
 }
-.m-div{
+
+.m-div {
   display: flex;
   width: auto;
   height: 150px;
+  gap: 30px;
+  margin-top: 50px;
 }
-
