@@ -1,3 +1,4 @@
+import { Button } from "bootstrap"
 import Link from "next/link"
 
 
@@ -12,12 +13,12 @@ export const Header = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav">
-                        <Link href={"/"} id="link">Home</Link>
-                        <Link href={"/landing"} id="link">Landing</Link>
-                        <Link href={"/about"} id="link">About</Link>
-                        <Link href={"/menu"} id="link">Menu</Link>
-                        <Link href={"/team"} id="link">Team</Link>
-                        <Link href={"/contact"} id="link">Contact</Link>
+                        <Button id="link">Home</Button>
+                        <Button id="link">Landing</Button>
+                        <Button id="link">About</Button>
+                        <Button id="link">Menu</Button>
+                        <Button id="link">Team</Button>
+                        <Button id="link">Contact</Button>
                     </ul>
                 </div>
             </div>
