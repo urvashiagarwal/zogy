@@ -69,7 +69,7 @@ export const FourBanner = () => {
                         <div style={{ width: "480px" }}>
                             <h5>OFFICE</h5>
                             <h5>Come say hello at our office HQ.</h5>
-                            <a href="https://nicepage.com/html-templates/preview/lower-food-cost-4298248?device=desktop">121 Rock Street, 21 Avenue, New York, NY 92103-9000</a>
+                            <a href="https://nicepage.me/" style={{ color: 'black' }}>121 Rock Street, 21 Avenue, <br /> New York, NY 92103-9000</a>
                         </div>
 
 
