@@ -42,7 +42,7 @@ export const FourBanner = () => {
                     </div>
                 </div>
                 <div className="h-box">
-                    <div className="row" style={{ display: "flex" }}>
+                    <div className="row" style={{ display: "flex-inline" }}>
 
                         <div class="msg">
                             <img
