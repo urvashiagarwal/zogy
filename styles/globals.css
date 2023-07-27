@@ -879,14 +879,12 @@
 }
 
 .msg1 {
-
-  background-color: #000000;
   height: 67px;
   width: 67px;
+  background-color: #000000;
+
   border-radius: 50px;
   padding: 13px;
   align-items: center;
 }
-.msg1 icon1{
-  color: #ffffff;
-}
+
