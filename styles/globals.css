@@ -875,6 +875,7 @@
   width: 556px;
   border-radius: 40px;
   color: #000000;
+  padding: 30px;
 
 }
 
@@ -886,5 +887,10 @@
   border-radius: 50px;
   padding: 13px;
   align-items: center;
+}
+.m-div{
+  display: flex;
+  width: auto;
+  height: 150px;
 }
 
