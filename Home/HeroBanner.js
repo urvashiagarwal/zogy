@@ -19,7 +19,7 @@ export const HeroBanner = () => {
                             <h4>new restaurant</h4>
                             <h1>Where every <br /> ingredient <br /> tells a story</h1>
                             <h5>Image From <span>Freepik</span></h5>
-                            <button>Read More</button>
+                            <a href="https://nicepage.com/c/video-website-mockup"><button >Read More</button></a>
                         </div>
 
                         <div className="col col-lg-6 col-md-6 col-sm-0">
