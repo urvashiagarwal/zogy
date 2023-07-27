@@ -25,7 +25,7 @@ export const FourBanner = () => {
 
                 <div className="g-box">
                     <div>
-                        <div id="logo" style={{ marginLeft: "315px", marginTop: "calc(-42px)" }} >
+                        <div id="logo" style={{ marginLeft: "280px", marginTop: "calc(-42px)" }} >
                             <h1>40%</h1>
                             <h4>Business lunch</h4>
                         </div>
@@ -42,7 +42,7 @@ export const FourBanner = () => {
                     </div>
                 </div>
                 <div className="h-box">
-                    <div className="row" style={{ display: "flex" }}>
+                    <div className="row" style={{ display: "flex", width: "auto" }}>
 
                         <div class="msg1" style={{ width: "67px" }}>
                             <img
@@ -50,9 +50,11 @@ export const FourBanner = () => {
                                 alt="" id="icon1" />
                         </div>
 
-                        <h5>CHART TO US</h5>
-                        <h5>Our friendly team is here to help.</h5>
-                        <a href="https://nicepage.best/">hi@ourcompany.com</a>
+                        <div>
+                            <h5>CHART TO US</h5>
+                            <h5>Our friendly team is here to help.</h5>
+                            <a href="https://nicepage.best/">hi@ourcompany.com</a>
+                        </div>
 
 
                     </div>
