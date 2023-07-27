@@ -42,7 +42,7 @@ export const FourBanner = () => {
                     </div>
                 </div>
                 <div className="h-box">
-                    <div className="row m-div">
+                    <div className="m-div">
 
                         <div class="msg1" style={{ width: "67px" }}>
                             <img
@@ -50,7 +50,7 @@ export const FourBanner = () => {
                                 alt="" id="icon1" />
                         </div>
 
-                        <div>
+                        <div style={{ width: "480px" }}>
                             <h5>CHART TO US</h5>
                             <h5>Our friendly team is here to help.</h5>
                             <a href="https://nicepage.best/">hi@ourcompany.com</a>
