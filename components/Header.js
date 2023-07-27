@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export const Header = () => {
     return (
-        <nav className="navbar navbar-expand-lg bg-body-tertiary ">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-header ">
             <div className="container-fluid">
 
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
