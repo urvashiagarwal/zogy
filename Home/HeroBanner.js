@@ -1,6 +1,6 @@
 import React from "react";
 
-const HeroBanner = () => {
+export const HeroBanner = () => {
     return (
         <>
             <section>
