@@ -38,21 +38,21 @@
 
 @media (min-width: 992px) {
   .banner {
-    height: 992vh;
+    height: 992vx;
   }
 }
 
 @media (max-width: 991px) {
   .banner {
     /* Define the height for medium-sized screens (adjust as needed) */
-    height: 991vh;
+    height: 991vx;
   }
 }
 
 @media (max-width: 767px) {
   .banner {
     /* Define the height for smaller screens (adjust as needed) */
-    height: 767vh;
+    height: 767vx;
   }
 }
 
