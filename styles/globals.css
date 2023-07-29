@@ -36,6 +36,26 @@
 
 }
 
+@media (min-width: 992px) {
+  .banner {
+    height: 500px;
+  }
+}
+
+@media (max-width: 991px) {
+  .banner {
+    /* Define the height for medium-sized screens (adjust as needed) */
+    height: 400px;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner {
+    /* Define the height for smaller screens (adjust as needed) */
+    height: 300px;
+  }
+}
+
 .lunch {
   padding: 100px;
 }
