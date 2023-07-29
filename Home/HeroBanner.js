@@ -5,11 +5,11 @@ export const HeroBanner = () => {
                 <div className="container-fluid banner">
                     <div className="row">
 
-                        <div className="col col-lg-1 col-md-0 col-sm-0">
+                        <div className="col col-lg-1 col-md-1 col-sm-1">
 
                         </div>
 
-                        <div className=" col col-lg-5 col-md-6 col-sm-12 lunch ">
+                        <div className=" col col-lg-5 col-md-5 col-sm-12 lunch ">
                             <div id="circle">
                                 <div>
                                     <h2>40%</h2>
@@ -22,7 +22,7 @@ export const HeroBanner = () => {
                             <a href="https://nicepage.com/c/video-website-mockup" target="_blank" rel="noopener noreferrer"><button >Read More...</button></a>
                         </div>
 
-                        <div className="col col-lg-6 col-md-6 col-sm-0">
+                        <div className="col col-lg-6 col-md-6 col-sm-12 ">
 
                         </div>
 
