@@ -25,7 +25,7 @@
   color: #f1ae0e;
 }
 
-.banner {
+/* .banner {
   background-image: url("https://assets.nicepagecdn.com/11a8ddce/4267640/images/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view.jpg");
   background-size: 100%;
   height: 930vx;
@@ -34,6 +34,19 @@
   vertical-align: middle;
   float: left;
 
+} */
+
+/* @media (min-width: 992px) {
+  .banner {
+    height: 993vx;
+  }
+} */
+
+.banner {
+  background-image: url("https://assets.nicepagecdn.com/11a8ddce/4267640/images/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view.jpg");
+  background-size: cover;
+  height: auto;
+  position: relative;
 }
 
 @media (min-width: 992px) {
@@ -45,14 +58,14 @@
 @media (max-width: 991px) {
   .banner {
     /* Define the height for medium-sized screens (adjust as needed) */
-    height: auto;
+    height: 400px;
   }
 }
 
 @media (max-width:auto) {
   .banner {
-    /* Define the height for smaller screens (adjust as needed) */
-    height: auto;
+    /* Define the height for smaller screens (adjust as needed */
+    height: 200px;
   }
 }
 

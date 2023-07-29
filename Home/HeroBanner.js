@@ -1,4 +1,6 @@
-export const HeroBanner = () => {
+import React from "react";
+
+const HeroBanner = () => {
     return (
         <>
             <section>
@@ -31,5 +33,7 @@ export const HeroBanner = () => {
             </section>
 
         </>
-    )
-}
+    );
+};
+
+export default HeroBanner;
