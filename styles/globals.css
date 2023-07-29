@@ -45,11 +45,11 @@
 @media (max-width: 991px) {
   .banner {
     /* Define the height for medium-sized screens (adjust as needed) */
-    height: 991vx;
+    height: 1300vx;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width:auto) {
   .banner {
     /* Define the height for smaller screens (adjust as needed) */
     height: 767vx;
