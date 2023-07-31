@@ -937,3 +937,17 @@
   font-weight: bold;
 
 }
+.about{
+  padding: 40px;
+}
+
+.mission{
+   padding: 30px;
+  width: 540px;
+    height: 521px;
+}
+.f-img{
+  border-radius: 40px;
+  width: 540px;
+    height: 521px;
+}
