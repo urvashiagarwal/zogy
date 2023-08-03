@@ -1010,3 +1010,10 @@
       text-transform: uppercase;
       font-size: 17px;
   }
+  .abt-salad{
+    padding: 90px;
+      gap: 30px;
+  }
+  .salad-img{
+    border-radius: 40px;
+  }
