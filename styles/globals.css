@@ -938,16 +938,75 @@
 
 }
 .about{
+  
+    padding: 120px;
+      display: flex;
+      margin-left: 70px;
+      gap: 30px;
+}
+.about-text{
+  width: 540px;
+  height: 521px;
+  
+  color: #000000;
   padding: 40px;
 }
-
-.mission{
-   padding: 30px;
-  width: 540px;
-    height: 521px;
+.about-text h1{
+  
+  margin-bottom: 24px;
+  font-weight: bold;
 }
-.f-img{
+.about-text h5{
+  margin-bottom: 20px;
+}
+.about-text button{
+  width: 159px;
+  height: 57px;
+  margin-top: 30px;
+  border-radius: 50px;
+  background-color: #f1ae0e;
+      color: #ffffff;
+      padding: 14px 32px 14px 31px;
+      border: 0px;
+      text-transform: uppercase;
+      font-size: 17px;
+}
+.about-img{
+  width: 540px;
+  height: 521px;
   border-radius: 40px;
-  width: 540px;
-    height: 521px;
-}
+  }
+
+  .abt-banner{
+    background-color:#f1ae0e ;
+    height: 561px;
+    padding: 75px;
+  }
+  .abt-inn{
+    background-color: #ffffff;
+    height: 411px;
+    border-radius: 50px;
+    text-align: center;
+    
+    
+  }
+  .abt-text{
+        padding: 30px 180px;
+        color: #000000;
+  }
+  .abt-text h1{
+    font-size:320%;
+    margin-bottom: 20px;
+  }
+  .abt-text button{
+    width: 169px;
+      height: 57px;
+      margin-top: 20px;
+      border-radius: 50px;
+      background-color:#99e54d;
+      color:#000000;
+      padding: 14px 32px 14px 31px;
+      border: 0px;
+      text-transform: uppercase;
+      font-size: 17px;
+  }
