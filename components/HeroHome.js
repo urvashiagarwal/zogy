@@ -37,34 +37,29 @@ export const HeroHome =()=>{
             <HeroThree/>
             <div class="banner3">
                 <div class="container">
-                    <div class="row">
-                        <div id="innerbnr2">
+                    <div class="row innerbnr2">
 
-                            <div>
-                                <img src="https://assets.nicepagecdn.com/11a8ddce/4267640/images/pexels-photo-3681641.jpeg" alt="img"
-                                    id="photo2" />
-                            </div>
-
-                            <div class="text2">
-                                <h1>$4</h1>
-                                <h4>CROISSANT WITH TOPPING</h4>
-                                <h5>Article evident arrived express highest men did boy. Mistress sensible entirely am so. Quick can manor
-                                    smart money hopes
-                                    worth too</h5>
-                                <h5>Image from <span id="freepik">Freepik</span></h5>
-                            </div>
-
+                        <div class="col col-lg-6 col-md-6 col-sm-12">
+                            <img src="https://assets.nicepagecdn.com/11a8ddce/4267640/images/pexels-photo-3681641.jpeg" alt="img" id="photo2" />
                         </div>
+
+                        <div class="col col-lg-6 col-md-6 col-sm-12 text2">
+                            <h1>$4</h1>
+                            <h4>CROISSANT WITH TOPPING</h4>
+                            <h5>Article evident arrived express highest men did boy. Mistress sensible entirely am so. Quick can manor smart money hopes worth too</h5>
+                            <h5>Image from <span id="freepik">Freepik</span></h5>
+                        </div>
+
                     </div>
                 </div>
             </div>
             <HeroMenu/>
             <div class="banner4">
                 <div class="container">
-                    <div class="row">
-                        <div id="innerbnr4">
+                    <div class="row" id="innerbnr4">
+                        
 
-                            <div class=" text5">
+                            <div class=" col col-lg-6 col-md-6 col-sm-12 text5">
                                 <h1>$14</h1>
                                 <h4>SALAD WITH CHICKEN</h4>
                                 <h5>Article evident arrived express highest men did boy. Mistress sensible entirely am so. Quick can manor
@@ -75,13 +70,13 @@ export const HeroHome =()=>{
                                 <h5>Image from <span id="freepik">Freepik</span></h5>
                             </div>
 
-                            <div>
+                            <div className="col col-lg-6 col-md-6 col-sm-12">
                                 <img
                                     src="https://assets.nicepagecdn.com/11a8ddce/4267640/images/fresh-salad-with-turkey-eggs-vegetables.jpg"
                                     alt="img" id="photo3" />
                             </div>
 
-                        </div>
+                    
                     </div>
                 </div>
             </div>

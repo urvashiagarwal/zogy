@@ -58,7 +58,7 @@
   .banner {
     height: 993vx;
 
-    
+
   }
 }
 
@@ -73,10 +73,10 @@
   .banner {
     /* Define the height for smaller screens (adjust as needed */
     height: 993px;
-  
+
 
   }
-  
+
 }
 
 .lunch {
@@ -163,29 +163,32 @@
 .innerthree {
   padding-top: 50px;
   padding-bottom: 50px;
- 
- 
-  
+
+
+
 }
+
 @media (min-width:992px) {
-  .innerthree{
-   
+  .innerthree {
+
     margin-left: 30px;
     padding: 70px;
-  
-   
+
+
   }
 }
+
 @media (max-width:990px) {
-  .innerthree{
+  .innerthree {
     /* display medium screen  */
     margin-left: 20px;
-  gap: 40px;
-  padding: 40px;
+    gap: 40px;
+    padding: 40px;
   }
 }
+
 @media (max-width:auto) {
-  .innerthree{
+  .innerthree {
     /* display small screen  */
     margin-left: 20px;
     gap: 40px;
@@ -205,7 +208,7 @@
 }
 
 .innerbnr {
-  padding-left: 50px; 
+  padding-left: 50px;
 }
 
 .text {
@@ -229,18 +232,20 @@
 }
 
 #photo {
-  width: 100%;
+  width: 360px;
   max-width: 540px;
   height: 521px;
   border-radius: 50px;
 }
- @media (max-width: 768px) {
-   .col {
-     flex-basis: 100%;
-     max-width: 100%;
-     display: block;
-   }
- }
+
+@media (max-width: 768px) {
+  .col {
+    flex-basis: 100%;
+    max-width: 100%;
+    display: block;
+  }
+}
+
 #threeimg2 {
   background-color: #1a1a1a;
 
@@ -249,10 +254,10 @@
 .innerthree2 {
   padding-top: 50px;
   padding-bottom: 50px;
-  
+
 
   padding-left: 70px;
-  
+
 
 }
 
@@ -269,11 +274,10 @@
   color: white;
 }
 
-#innerbnr2 {
-  display: flex;
-  height: 540px;
-  margin-left: 70px;
-  margin-right: 60px;
+.innerbnr2 {
+
+  height: auto;
+  padding-left: 50px;
 }
 
 .text2 {
@@ -284,6 +288,13 @@
 
 }
 
+#photo2 {
+  width: 400vx;
+  max-width: 540px;
+  height: 521px;
+  border-radius: 50px;
+}
+
 .text2 h4 {
   margin-top: 20px;
 }
@@ -292,10 +303,24 @@
   margin-top: 30px;
 }
 
-#photo2 {
-  width: 540px;
-  height: 521px;
-  border-radius: 50px;
+@media (min-width: 768px) {
+
+  /* For tablets and larger screens */
+  .innerbnr2 {
+
+
+
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-left: 50px;
+  }
+
+
+
+  #photo2 {
+    max-width: 540px;
+    height: 521px;
+  }
 }
 
 .menu {
@@ -305,6 +330,32 @@
 
 
 }
+
+@media (max-width: 992px) {
+
+
+
+
+  #menupic {
+    width: 100%;
+    max-width: 500px;
+    /* Adjust the height and other styles as needed */
+  }
+}
+
+@media (max-width: 768px) {
+
+  #menupic {
+    /* Adjust the width and height for small screens */
+
+    max-width: 400px;
+    background-size: cover;
+    max-height: 400px;
+
+  }
+}
+
+/* ... Add more media queries for other screen sizes as needed ... */
 
 #text3 {
   margin-top: 140px;
@@ -378,17 +429,23 @@
 .banner4 {
   background-color: #1a1a1a;
   width: 100%;
-  height: 610px;
+  height: auto;
   color: white;
   padding-bottom: 200px;
 }
 
 #innerbnr4 {
   display: flex;
-  height: 500px;
+  height: auto;
   margin-left: 40px;
 
 
+}
+
+@media (max-width:764px) {
+  #photo3 {
+    max-width: 400px;
+  }
 }
 
 .text5 {
@@ -974,83 +1031,95 @@
   font-weight: bold;
 
 }
-.about{
-  
-    padding: 120px;
-      display: flex;
-      margin-left: 70px;
-      gap: 30px;
+
+.about {
+
+  padding: 120px;
+  display: flex;
+  margin-left: 70px;
+  gap: 30px;
 }
-.about-text{
+
+.about-text {
   width: 540px;
   height: 521px;
-  
+
   color: #000000;
   padding: 40px;
 }
-.about-text h1{
-  
+
+.about-text h1 {
+
   margin-bottom: 24px;
   font-weight: bold;
 }
-.about-text h5{
+
+.about-text h5 {
   margin-bottom: 20px;
 }
-.about-text button{
+
+.about-text button {
   width: 159px;
   height: 57px;
   margin-top: 30px;
   border-radius: 50px;
   background-color: #f1ae0e;
-      color: #ffffff;
-      padding: 14px 32px 14px 31px;
-      border: 0px;
-      text-transform: uppercase;
-      font-size: 17px;
+  color: #ffffff;
+  padding: 14px 32px 14px 31px;
+  border: 0px;
+  text-transform: uppercase;
+  font-size: 17px;
 }
-.about-img{
+
+.about-img {
   width: 540px;
   height: 521px;
   border-radius: 40px;
-  }
+}
 
-  .abt-banner{
-    background-color:#f1ae0e ;
-    height: 561px;
-    padding: 75px;
-  }
-  .abt-inn{
-    background-color: #ffffff;
-    height: 411px;
-    border-radius: 50px;
-    text-align: center;
-    
-    
-  }
-  .abt-text{
-        padding: 30px 180px;
-        color: #000000;
-  }
-  .abt-text h1{
-    font-size:320%;
-    margin-bottom: 20px;
-  }
-  .abt-text button{
-    width: 169px;
-      height: 57px;
-      margin-top: 20px;
-      border-radius: 50px;
-      background-color:#99e54d;
-      color:#000000;
-      padding: 14px 32px 14px 31px;
-      border: 0px;
-      text-transform: uppercase;
-      font-size: 17px;
-  }
-  .abt-salad{
-    padding: 90px;
-      gap: 30px;
-  }
-  .salad-img{
-    border-radius: 40px;
-  }
+.abt-banner {
+  background-color: #f1ae0e;
+  height: 561px;
+  padding: 75px;
+}
+
+.abt-inn {
+  background-color: #ffffff;
+  height: 411px;
+  border-radius: 50px;
+  text-align: center;
+
+
+}
+
+.abt-text {
+  padding: 30px 180px;
+  color: #000000;
+}
+
+.abt-text h1 {
+  font-size: 320%;
+  margin-bottom: 20px;
+}
+
+.abt-text button {
+  width: 169px;
+  height: 57px;
+  margin-top: 20px;
+  border-radius: 50px;
+  background-color: #99e54d;
+  color: #000000;
+  padding: 14px 32px 14px 31px;
+  border: 0px;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.abt-salad {
+  padding: 90px;
+  gap: 30px;
+}
+
+.salad-img {
+  border-radius: 40px;
+}
