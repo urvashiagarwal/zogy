@@ -21,13 +21,11 @@ export const HeroMenu = (props) => {
     }
 
      // Add state to track the window width
-    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    
 
     useEffect(() => {
         ApiData()
-        const handleResize = () => setWindowWidth(window.innerWidth);
-        window.addEventListener("resize", handleResize);
-        return () => window.removeEventListener("resize", handleResize);
+        
     }, [])
 
     return (
