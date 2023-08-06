@@ -19,7 +19,12 @@
   line-height: inherit;
   letter-spacing: inherit;
   font-size: 20px;
+  background-color: #ffffff;
+  border: none;
+  text-align: center;
 }
+
+
 
 #link:hover {
   color: #f1ae0e;
@@ -58,14 +63,14 @@
 @media (max-width: 991px) {
   .banner {
     /* Define the height for medium-sized screens (adjust as needed) */
-    height: 400px;
+    height: 993px;
   }
 }
 
 @media (max-width:auto) {
   .banner {
     /* Define the height for smaller screens (adjust as needed */
-    height: 200px;
+    height: 993px;
   }
 }
 

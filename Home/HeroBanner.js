@@ -11,7 +11,7 @@ export const HeroBanner = () => {
 
                         </div>
 
-                        <div className=" col col-lg-5 col-md-5 col-sm-12 lunch ">
+                        <div className=" col col-lg-5 col-md-10 col-sm-10 lunch ">
                             <div id="circle">
                                 <div>
                                     <h2>40%</h2>
@@ -24,7 +24,7 @@ export const HeroBanner = () => {
                             <a href="https://nicepage.com/c/video-website-mockup" target="_blank" rel="noopener noreferrer"><button >Read More...</button></a>
                         </div>
 
-                        <div className="col col-lg-6 col-md-6 col-sm-12 ">
+                        <div className="col col-lg-6 col-md-1 col-sm-1 ">
 
                         </div>
 
