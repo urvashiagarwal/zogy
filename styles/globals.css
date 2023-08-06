@@ -57,6 +57,8 @@
 @media (min-width: 992px) {
   .banner {
     height: 993vx;
+
+    
   }
 }
 
@@ -71,7 +73,10 @@
   .banner {
     /* Define the height for smaller screens (adjust as needed */
     height: 993px;
+  
+
   }
+  
 }
 
 .lunch {
@@ -158,11 +163,35 @@
 .innerthree {
   padding-top: 50px;
   padding-bottom: 50px;
-  display: flex;
-  gap: 20px;
-  margin-left: 70px;
-  margin-right: 70px;
+ 
+ 
+  
 }
+@media (min-width:992px) {
+  .innerthree{
+   
+    margin-left: 30px;
+    padding: 70px;
+  
+   
+  }
+}
+@media (max-width:990px) {
+  .innerthree{
+    /* display medium screen  */
+    margin-left: 20px;
+  gap: 40px;
+  padding: 40px;
+  }
+}
+@media (max-width:auto) {
+  .innerthree{
+    /* display small screen  */
+    margin-left: 20px;
+    gap: 40px;
+  }
+}
+
 
 #threeimg h4 {
   position: relative;
@@ -175,19 +204,16 @@
   color: white;
 }
 
-#innerbnr {
-  display: flex;
-  height: 540px;
-  margin-left: 40px;
-
+.innerbnr {
+  padding-left: 50px; 
 }
 
 .text {
-  width: 628px;
-  padding: 40px;
+  width: 100%;
+  max-width: 520px;
+  padding: 60px;
   margin-top: 150px;
   font-family: serif;
-
 }
 
 .text h4 {
@@ -203,12 +229,18 @@
 }
 
 #photo {
-  width: 540px;
+  width: 100%;
+  max-width: 540px;
   height: 521px;
   border-radius: 50px;
-  /* margin-right: 100px; */
 }
-
+ @media (max-width: 768px) {
+   .col {
+     flex-basis: 100%;
+     max-width: 100%;
+     display: block;
+   }
+ }
 #threeimg2 {
   background-color: #1a1a1a;
 
@@ -217,10 +249,10 @@
 .innerthree2 {
   padding-top: 50px;
   padding-bottom: 50px;
-  display: flex;
-  gap: 20px;
-  margin-left: 70px;
-  margin-right: 70px;
+  
+
+  padding-left: 70px;
+  
 
 }
 

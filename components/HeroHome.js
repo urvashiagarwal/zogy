@@ -13,27 +13,26 @@ export const HeroHome =()=>{
             <HeroImage/>
             <div class="banner2">
                 <div class="container">
-                    <div class="row">
-                        <div id="innerbnr">
-                            <div class=" text">
+                    <div class="row innerbnr">
+                        
+                            <div class="col col-lg-6 col-md-6 col-sm-12 text">
                                 <h1>$27</h1>
                                 <h4>BEEF WITH GINGER</h4>
                                 <h5>Article evident arrived express highest men did boy. Mistress sensible entirely am so. Quick can manor
-                                    smart
-                                    money hopes
-                                    worth too. Comfort produce husband boy her had hearing. Law others theirs passed but wishes. You day real
-                                    less till
-                                    dear
-                                    read. Considered use dispatched melancholy sympathize discretion led. Oh feel if up to till like.</h5>
+                                    smart money hopes worth too. Comfort produce husband boy her had hearing. Law others theirs passed but
+                                    wishes. You day real less till dear read. Considered use dispatched melancholy sympathize discretion
+                                    led. Oh feel if up to till like.</h5>
                                 <h5>Image from <span id="freepik">Freepik</span></h5>
                             </div>
 
-                            <div>
+                            <div class="col col-lg-6 col-md-6 col-sm-12">
                                 <img src="https://cdn.pixabay.com/photo/2017/03/23/19/57/asparagus-2169305_1280.jpg" alt="img" id="photo" />
                             </div>
-                        </div>
+                    
                     </div>
                 </div>
+                
+
             </div>
             <HeroThree/>
             <div class="banner3">
