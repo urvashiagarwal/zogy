@@ -187,11 +187,17 @@
   }
 
   #bgimg {
-    width: 300px;
+    width: 280px;
     height: 200px;
   }
 }
 
+@media (max-width:768px) {
+  #bgimg {
+    width: 280px;
+    height: 200px;
+  }
+}
 
 
 #threeimg h4 {
