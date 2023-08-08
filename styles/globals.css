@@ -250,7 +250,7 @@
   }
 
   #photo {
-    max-width: 300px;
+    max-width: 280px;
     height: 370px;
   }
 }
@@ -280,7 +280,7 @@
 @media (max-width:768px) {
 
   #pic1 {
-    max-width: 300px;
+    max-width: 280px;
     height: 350px;
   }
 
@@ -344,7 +344,7 @@
 
 @media (max-width:768px) {
   #photo2 {
-    width: 300px;
+    width: 280px;
     height: 350px;
   }
 
