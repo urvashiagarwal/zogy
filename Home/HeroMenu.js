@@ -20,12 +20,12 @@ export const HeroMenu = (props) => {
             .catch(error => console.log('error', error));
     }
 
-     // Add state to track the window width
-    
+    // Add state to track the window width
+
 
     useEffect(() => {
         ApiData()
-        
+
     }, [])
 
     return (

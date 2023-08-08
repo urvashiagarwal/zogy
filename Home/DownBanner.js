@@ -3,12 +3,12 @@ export const DownBanner = () => {
         <>
 
             <section>
-                <div className="container-fluid" id="banner10">
+                <div className="container-fluid banner10" >
                     <div className="row">
-                        <div className="col-lg-1 col-sm-12">
+                        <div className="col col-lg-1 col-md-1 col-sm-12">
 
                         </div>
-                        <div className="col-lg-7 col-sm-12 txt" >
+                        <div className="col col-lg-7 col-md-10 col-sm-12 txt" >
                             <div id="circle">
                                 <div>
                                     <h2>40%</h2>
@@ -21,7 +21,7 @@ export const DownBanner = () => {
                             <button>submit</button>
 
                         </div>
-                        <div className="col-lg-4 col-sm-12">
+                        <div className="col col-lg-4 col-md-1 col-sm-12">
 
                         </div>
 
