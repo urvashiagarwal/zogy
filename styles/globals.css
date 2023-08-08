@@ -185,15 +185,13 @@
     gap: 40px;
     padding: 40px;
   }
-}
 
-@media (max-width:auto) {
-  .innerthree {
-    /* display small screen  */
-    margin-left: 20px;
-    gap: 40px;
+  #bgimg {
+    width: 350px;
+    height: 200px;
   }
 }
+
 
 
 #threeimg h4 {
@@ -244,6 +242,17 @@
     max-width: 100%;
     display: block;
   }
+
+  .text {
+    text-align: center;
+    margin-right: 50px;
+
+  }
+
+  #photo {
+    max-width: 350px;
+    height: 370px;
+  }
 }
 
 #threeimg2 {
@@ -268,6 +277,18 @@
   border-radius: 50px;
 }
 
+@media (max-width:768px) {
+
+  #pic1 {
+    max-width: 350px;
+    height: 350px;
+  }
+
+  .innerthree2 {
+    padding-left: 50px;
+  }
+}
+
 .banner3 {
   background-color: #1a1a1a;
   width: 100%;
@@ -289,11 +310,14 @@
 }
 
 #photo2 {
-  width: 400vx;
+  width: 400px;
   max-width: 540px;
   height: 521px;
   border-radius: 50px;
 }
+
+
+
 
 .text2 h4 {
   margin-top: 20px;
@@ -307,21 +331,30 @@
 
   /* For tablets and larger screens */
   .innerbnr2 {
-
-
-
     margin-left: 70px;
     margin-right: 70px;
     padding-left: 50px;
   }
-
-
 
   #photo2 {
     max-width: 540px;
     height: 521px;
   }
 }
+
+@media (max-width:768px) {
+  #photo2 {
+    width: 350px;
+    height: 350px;
+  }
+
+  .text2 {
+    text-align: center;
+    margin-right: 50px;
+  }
+
+}
+
 
 .menu {
   background-color: #1a1a1a;
@@ -332,9 +365,6 @@
 }
 
 @media (max-width: 992px) {
-
-
-
 
   #menupic {
     width: 100%;
@@ -348,11 +378,12 @@
   #menupic {
     /* Adjust the width and height for small screens */
 
-    max-width: 400px;
+    max-width: 350px;
     background-size: cover;
-    max-height: 400px;
+    max-height: 350px;
 
   }
+
 }
 
 /* ... Add more media queries for other screen sizes as needed ... */
@@ -444,17 +475,24 @@
 
 @media (max-width:764px) {
   #photo3 {
-    max-width: 400px;
+    width: 350px;
+    height: 35px;
+
   }
+
 }
 
 @media (max-width:991px) {
   #photo3 {
-    max-width: 400px;
+    max-width: 350px;
+    max-height: 350px;
+    margin-left: 30px;
   }
 
   .text5 {
-    width: 500px;
+    width: 350px;
+    text-align: center;
+
   }
 
   #innerbnr4 {
