@@ -378,7 +378,7 @@
   #menupic {
     /* Adjust the width and height for small screens */
 
-    max-width: 300px;
+    max-width: 270px;
     background-size: cover;
     max-height: 350px;
 
