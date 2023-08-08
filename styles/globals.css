@@ -475,7 +475,7 @@
 
 @media (max-width:764px) {
   #photo3 {
-    width: 300px;
+    width: 280px;
     height: 350px;
 
   }
@@ -484,7 +484,7 @@
 
 @media (max-width:991px) {
   #photo3 {
-    max-width: 300px;
+    max-width: 280px;
     max-height: 350px;
     margin-left: 30px;
   }
