@@ -11,7 +11,7 @@ This food website is a web development project created during a summer internshi
 - Features responsive design for optimal viewing on different devices.
 - Utilizes a technology stack that includes Next.js, HTML, CSS, JavaScript, Bootstrap, and MongoDB for data storage.
 - Integrates with APIs to enhance the website's functionality.
-- Offers a content management system (CRM) for managing the menu.
+- Offers a content management system (CMS) for managing the menu.
 
 **Technology Stack:**
 - Next.js for building the frontend.
