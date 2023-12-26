@@ -3,7 +3,7 @@
 **Project Name:** Food Website
 
 **Description:**
-This food website is a web development project created during a summer internship training program. It serves as a showcase of my web development skills and is not intended for commercial use. The website is live and is designed to display various food-related content, including information about different foods and related details. It also includes a content management system (CRM) for managing the menu.
+This food website is a web development project created during a summer internship training program. It serves as a showcase of my web development skills and is not intended for commercial use. The website is live and is designed to display various food-related content, including information about different foods and related details. It also includes a content management system (CMS) for managing the menu.
 
 **Key Features:**
 - Displays a variety of food items and information.
